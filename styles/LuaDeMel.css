@@ -9,7 +9,7 @@ header {
 
 div {
     margin: 100px;
-}
+} 
 
 .imagens {
     display: flex;
@@ -29,6 +29,7 @@ div {
 }
 
 pre {
+    white-space: pre-wrap;
     background-color: #f4f4f4;
     padding: 10px;
     border: 1px solid #ddd;
@@ -57,4 +58,10 @@ footer {
     text-align: center;
     padding: 15px;
     background-color: #d0bba0;
+}
+
+@media(max-width: 634px) {
+    div {
+        margin: 0px;
+    }
 }
