@@ -56,14 +56,14 @@ a {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     text-align: center;
     padding: 15px;
     background-color: #d0bba0;
-    z-index: 1000;
+    /* z-index: 1000; */
 }
 @media(max-width: 634px) {
     div {
